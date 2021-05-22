@@ -19,8 +19,7 @@
   },
   "lint-staged": {
     "*.elm": [
-      "elm-format --yes",
-      "git add"
+      "elm-format --yes"
     ]
   },
   "repository": {
