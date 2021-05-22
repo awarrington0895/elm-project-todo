@@ -1,0 +1,32 @@
+{
+  "name": "elm-project-todo",
+  "version": "0.0.1",
+  "description": "This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "elm-format": "^0.8.5",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*.elm": ["elm-format --yes", "git add"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awarrington0895/elm-project-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awarrington0895/elm-project-todo/issues"
+  },
+  "homepage": "https://github.com/awarrington0895/elm-project-todo#readme"
+}
