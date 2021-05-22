@@ -2,7 +2,7 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: "npm install -g elm-test elm-format create-elm-app && elm make && sh ./update-git-config.sh"
+  - init: "npm install -g elm-test elm-format create-elm-app && elm make src/Main.elm"
 
 vscode:
   extensions:
