@@ -50,3 +50,10 @@ jobs:
 
       - name: Test the app
         run: npm run test
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: todos
+          path: build
+          retention-days: 1
