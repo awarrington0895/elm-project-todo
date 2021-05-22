@@ -8,13 +8,15 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "create-elm-app": "^5.22.0",
     "elm-format": "^0.8.5",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0"
   },
   "scripts": {
+    "build": "elm-app build",
     "precommit": "lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "elm-app test",
     "prepare": "husky install"
   },
   "lint-staged": {
